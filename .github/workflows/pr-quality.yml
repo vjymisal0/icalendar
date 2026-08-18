@@ -16,7 +16,7 @@ jobs:
   anti-slop:
     runs-on: ubuntu-latest
     steps:
-      - uses: peakoss/anti-slop@v0
+      - uses: peakoss/anti-slop@753c51043d0c43564e1df382c173233c56cdb5e4 # v0
         with:
           max-failures: 1
           max-description-length: 1500
